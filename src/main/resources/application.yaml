@@ -1,0 +1,10 @@
+spring:
+  application:
+  name: kafka-producer-tester
+  kafka:
+    producer:
+      bootstrap-servers: 10.10.20.80:30243
+server:
+  port: 8081
+
+topics: test1,test2
